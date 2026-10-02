@@ -6,8 +6,7 @@
 - 次の作業：
   1. README「受講者向け：使い方」を受講者に渡す（Public なので招待は不要）
   3. `~/.codex/config.toml` の trusted にこの案件を登録する（Codex を使う場合）
-  4. `~/work/cmp-academy/curriculum/principles.md` を Playbook に追随させる（前提・4段階の削除。cmp-academy で起動して行う）
-- 未解決事項：principles.md の追随
+- 未解決事項：なし（principles.md は 2026-10-02 に追随済み。cmp-academy 側は未コミット）
 - 検証結果・未検証事項：実 repo から clone → リンク経由で check-update.sh が「最新」を返すことを確認（2026-10-02）。Claude デスクトップアプリが Skill を認識することも確認。Codex 実機、Windows での bash は未検証
 - 成果物：`playbook-full.md`（2026-10-02、v1）、`playbook-qa/`
 - Public で保つための決まり：顧客名・個人名・契約情報・社内限りの情報をどのファイルにも書かない（AGENTS.md に明記済み）。
