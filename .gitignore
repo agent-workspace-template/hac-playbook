@@ -1,0 +1,9 @@
+# 秘密ファイル（読まない・出力しない・コミットしない）。独立 git にすると work の .gitignore は届かないので、ここにも置く
+.env
+.env.*
+*.pem
+*.key
+id_*
+credentials
+*credentials*.json
+secrets/

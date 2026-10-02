@@ -1,0 +1,18 @@
+# 案件の Codex 権限。原本 input/ を読み取り専用にする（Claude Code の Edit deny と同じ守り）。
+# ~/work/.codex/config.toml の profile "work" に結合される
+approval_policy = "on-request"
+default_permissions = "work"
+
+[permissions.work]
+extends = ":workspace"
+
+[permissions.work.network]
+enabled = true
+
+[permissions.work.filesystem.":workspace_roots"]
+"input" = "read"
+"**/.env" = "deny"
+"**/.env.*" = "deny"
+"**/*.pem" = "deny"
+"**/*.key" = "deny"
+"**/secrets" = "deny"
