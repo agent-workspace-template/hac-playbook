@@ -14,7 +14,7 @@
 1. clone する（置き場は `~/work/knowledge/hac-playbook`）。
 
 ```bash
-git clone <この repo の URL> ~/work/knowledge/hac-playbook
+git clone https://github.com/agent-workspace-template/hac-playbook.git ~/work/knowledge/hac-playbook
 ```
 
 2. Skill のリンクを張る（1回だけ）。
