@@ -1,6 +1,6 @@
 # 現在の状況
 
-- 更新日：2026-10-02（Skill を2段構えに変更：Playbook にあることは型番号つき、無いことは「Playbook 外」と明記して一般の知識で答える。本文「疑問があるとき」に Skill で聞く場合を追記）
+- 更新日：2026-10-02（Playbook を「正解集ではなく今の AI との組み方」と位置づけ直し。はじめに「この文書の扱い」、土台の表に「AI が進むと」列、貼り付け文と Skill を参考型に）
 - 状態：配布可能。origin = https://github.com/agent-workspace-template/hac-playbook（Public。認証不要で clone・更新確認ができる）
 - 完了したこと：`~/work/cmp-academy/output/hac-playbook/playbook-full.md` を複製、`playbook-qa/`（SKILL.md・check-update.sh）を `tools/skills/` から移設し、`tools/skills/playbook-qa` はここへのリンクにした。check-update.sh はローカル repo を remote に見立てて、最新・遅れ取り込み・手元変更・remote 不達・clone なし・リンク経由の各経路を検証済み
 - 次の作業：
